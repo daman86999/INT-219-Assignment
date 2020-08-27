@@ -1,0 +1,162 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: url("https://images.unsplash.com/photo-1511933801659-156d99ebea3e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExODA5M30");
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.Contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    margin:0.8% auto auto 6%;
+    padding:20px;
+    color:white;
+    font-size: 150%;
+    font-family: monospace;
+    padding: 50px;
+}
+
+input{
+    height: 30px;
+    border-radius: 4px;
+    outline:none;
+    border: none;
+    padding:5px 19px;
+    letter-spacing: 2px;
+    
+}
+
+input:focus{
+    box-shadow: inset 0px 2px 7px #222222 ;
+}
+
+.form-title h1{
+    text-shadow:-3px 1px #656565eb;
+    letter-spacing: 3px;
+}
+
+.your-name{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+
+.your-name input{
+
+    margin-left: 25px;  
+    width: 28.2%;
+    
+}
+
+#first-n{
+    margin-left: 100px;
+}
+
+.your-email{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+.your-email input{
+    margin-left: 90px;
+    width: 65%;
+    letter-spacing: 2.1px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row; 
+    align-items:  center;
+}
+
+
+.phone input{
+    width: 16.4%;
+    margin-left: 23px;
+}
+
+#first-p{
+    margin-left: 133px;
+}
+
+.message-subject{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+.message-subject select,option{
+    width: 50%;
+    margin-left: 25px;
+    height: 37px;
+    border-radius: 4px;
+    outline:none;
+    border: none;
+    padding:5px 19px;
+    letter-spacing: 2px;
+    color:#585858;
+}
+
+
+.message{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+}
+
+.message textarea{
+    border:none;
+    outline: none;
+    border-radius:4px;
+    margin-left: 110px;
+    padding:10px;
+}
+
+.message textarea:focus{
+    box-shadow: inset 0px 2px 7px #222222 ;
+    
+}
+
+.verification{
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+    margin-top: 20px;
+}
+
+#first-c{
+    margin-left: 56px ;
+}
+
+.submit-form{ 
+    margin-top: 50px;  
+    border-top: 2px solid rgba(255, 255, 255, 0.842);
+    border-radius: 4px;
+
+}
+
+.submit-form .submit{
+    margin-top: 50px;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    outline:none;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid snow;
+    padding:15px 19px;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in;
+}
+
+.submit-form .submit:hover{
+    background-color: snow;
+    color:#222222;
+}
