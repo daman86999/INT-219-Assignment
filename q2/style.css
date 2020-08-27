@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  
+}
+
+table{
+    background: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExODA5M30");
+    width: 50%;
+    box-shadow: 13px -9px 2px #8c8c8c;
+}
+
+table,th,td{
+    border: 2px solid #222222;
+    margin: 40px;
+}
+
+th{
+    background: #f1e8e8;
+    color:rgb(221, 91, 44);
+    font-size: 25px;
+}
+
+td{
+    color:#750349;
+    font-size: 20px;
+    padding:10px;
+    
+}
